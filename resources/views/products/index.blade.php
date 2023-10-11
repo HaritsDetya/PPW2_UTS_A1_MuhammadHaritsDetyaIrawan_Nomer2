@@ -1,6 +1,6 @@
 @extends('layouts')
 
-@section('content')
+@section('content_index')
 
 <div class="row justify-content-center mt-3">
     <div class="col-md-12">
@@ -27,7 +27,7 @@
                       </tr>
                     </thead>
                     <tbody>
-                        @forelse ($products as $product)
+                        @foreach ($products as $product)
                         <tr>
                             <th scope="row">{{ $loop->iteration }}</th>
                             <td>{{ $product->code }}</td>

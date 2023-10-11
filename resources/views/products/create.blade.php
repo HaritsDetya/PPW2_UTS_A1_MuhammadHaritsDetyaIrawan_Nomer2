@@ -1,6 +1,6 @@
 @extends('products.layouts')
 
-@section('content')
+@section('content_create')
 
 <div class="row justify-content-center mt-3">
     <div class="col-md-8">

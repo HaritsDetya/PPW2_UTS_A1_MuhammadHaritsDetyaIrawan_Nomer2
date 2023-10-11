@@ -1,6 +1,6 @@
 @extends('layouts')
 
-@section('content')
+@section('content_show')
 
 <div class="row justify-content-center mt-3">
     <div class="col-md-8">

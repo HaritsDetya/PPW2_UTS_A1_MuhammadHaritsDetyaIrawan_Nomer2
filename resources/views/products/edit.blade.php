@@ -1,6 +1,6 @@
-@extends('products.layouts')
+@extends('index')
 
-@section('content')
+@section('content_edit')
 
 <div class="row justify-content-center mt-3">
     <div class="col-md-8">
